@@ -1,0 +1,25 @@
+{
+    "name": "enom"
+  , "description": "Node.js library for accessing Enom's API at <http://www.enom.com>"
+  , "version": "0.0.1"
+  , "author": "Nick Baugh <niftylettuce@gmail.com>"
+  , "contributors": [
+        { "name": "Nick Baugh", "email": "niftylettuce@gmail.com" }
+    ]
+  , "keywords": [ "enom", "node-enom", "api" ]
+  , "homepage": "https://github.com/niftylettuce/node-enom"
+  , "repository": {
+        "type": "git"
+      , "url": "https://github.com/niftylettuce/node-enom.git"
+    }
+  , "engines": {
+      "node": ">= 0.6.0"
+    }
+  , "main": "lib/main.js"
+  , "dependencies": {}
+  , "devDependencies": {
+     "vows": ">= 0.6.2"
+  }
+  , "scripts": { "test": "vows test/*" }
+
+}
